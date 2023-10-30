@@ -12,7 +12,7 @@ app.post("/reading-list/books", (req, res) => {
   const uuid = uuidv4();
   if (!(status === "read" || status === "to_read" || status === "reading")) {
     return res.status(400).json({
-      error: "Status is invalid. Accepted statuses: read | to_read | reading",
+      error: "Status is invalid. Accepted statuses: read  | to_read | reading",
     });
   }
   if (!title || !author || !status) {
