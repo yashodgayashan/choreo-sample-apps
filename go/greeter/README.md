@@ -3,7 +3,7 @@
 ## Repository File Structure
 
 The below table gives a brief overview of the important files in the greeter service.\
-Note: The following file paths are relative to the path /go/greeterssssfff
+Note: The following file paths are relative to the path /go/greeterssssfffs
 
 | Filepath               | Description                                                                                                                                                          |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
