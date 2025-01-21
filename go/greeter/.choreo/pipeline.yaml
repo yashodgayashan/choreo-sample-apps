@@ -1,0 +1,7 @@
+steps:
+  - name: Security Scan
+    template: choreo/checkov-scan@v1
+  - name: Build
+    template: cho\reo/build@v1
+  - name: Vulnerability Scan
+    template: choreo/trivy-scan@v1
