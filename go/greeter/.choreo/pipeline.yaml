@@ -2,6 +2,6 @@ steps:
   - name: Dockerfile Scan
     template: choreo/dockerfile-scan@v1
   - name: Docker Build
-    template: choreo/docker-build@v1
+    templates: choreo/docker-build@v1
   - name: Vulnerability Scan
     template: choreo/trivy-scan@v1
