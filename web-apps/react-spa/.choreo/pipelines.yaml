@@ -1,0 +1,7 @@
+steps:
+  - name: Dockerfile Scan
+    template: choreo/dockerfile-scan@v1
+  - name: Webapp Build
+    template: choreo/webapp-build@v1
+  - name: Vulnerability Scan
+    template: choreo/trivy-scan@v1
